@@ -1,0 +1,109 @@
+name: Customs Computer System API
+description: APIs for interacting with customs computer systems for import/export declarations, tariff information, and trade compliance
+image: https://example.com/customs-logo.png
+url: https://customs-api.example.com
+created: '2024-01-01'
+modified: '2024-01-01'
+specificationVersion: '0.16'
+apis:
+- name: Customs Declaration API
+  description: Submit and manage customs declarations for imports and exports
+  image: https://example.com/declaration-icon.png
+  baseURL: https://api.customs.example.com/v1/declarations
+  humanURL: https://customs-api.example.com/declarations
+  tags:
+  - Customs
+  - Declarations
+  - Import
+  - Export
+  - Trade
+  properties:
+  - type: X-OpenAPI
+    url: https://api.customs.example.com/v1/declarations/openapi.json
+  - type: X-Documentation
+    url: https://docs.customs.example.com/declarations
+  - type: X-Authentication
+    url: https://docs.customs.example.com/auth
+  - type: X-Pricing
+    url: https://customs-api.example.com/pricing
+  contact:
+  - FN: API Support
+    email: api-support@customs.example.com
+    X-twitter: customsapi
+- name: Tariff Classification API
+  description: Query harmonized system codes and tariff rates
+  image: https://example.com/tariff-icon.png
+  baseURL: https://api.customs.example.com/v1/tariffs
+  humanURL: https://customs-api.example.com/tariffs
+  tags:
+  - Tariffs
+  - HS Codes
+  - Classification
+  - Duties
+  properties:
+  - type: X-OpenAPI
+    url: https://api.customs.example.com/v1/tariffs/openapi.json
+  - type: X-Documentation
+    url: https://docs.customs.example.com/tariffs
+  - type: X-Rate-Limits
+    url: https://docs.customs.example.com/rate-limits
+  contact:
+  - FN: API Support
+    email: api-support@customs.example.com
+- name: Customs Status Tracking API
+  description: Track the status of customs declarations and clearances
+  image: https://example.com/tracking-icon.png
+  baseURL: https://api.customs.example.com/v1/tracking
+  humanURL: https://customs-api.example.com/tracking
+  tags:
+  - Tracking
+  - Status
+  - Clearance
+  - Shipments
+  properties:
+  - type: X-OpenAPI
+    url: https://api.customs.example.com/v1/tracking/openapi.json
+  - type: X-Documentation
+    url: https://docs.customs.example.com/tracking
+  - type: X-Webhooks
+    url: https://docs.customs.example.com/webhooks
+  contact:
+  - FN: API Support
+    email: api-support@customs.example.com
+- name: Trade Compliance API
+  description: Verify trade compliance, sanctions, and restricted party screening
+  image: https://example.com/compliance-icon.png
+  baseURL: https://api.customs.example.com/v1/compliance
+  humanURL: https://customs-api.example.com/compliance
+  tags:
+  - Compliance
+  - Sanctions
+  - Screening
+  - Regulations
+  properties:
+  - type: X-OpenAPI
+    url: https://api.customs.example.com/v1/compliance/openapi.json
+  - type: X-Documentation
+    url: https://docs.customs.example.com/compliance
+  - type: X-Terms-of-Service
+    url: https://customs-api.example.com/terms
+  contact:
+  - FN: Compliance Team
+    email: compliance@customs.example.com
+common:
+- type: X-Portal
+  url: https://portal.customs.example.com
+- type: X-Status
+  url: https://status.customs.example.com
+- type: X-Support
+  url: https://support.customs.example.com
+- type: X-Blog
+  url: https://blog.customs.example.com
+- type: X-Privacy-Policy
+  url: https://customs.example.com/privacy
+- type: X-Terms-of-Service
+  url: https://customs.example.com/terms
+maintainers:
+- FN: Customs IT Department
+  email: api-team@customs.example.com
+  X-github: customs-api
