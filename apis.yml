@@ -3,7 +3,7 @@ description: APIs for interacting with customs computer systems for import/expor
 image: https://example.com/customs-logo.png
 url: https://customs-api.example.com
 created: '2024-01-01'
-modified: '2024-01-01'
+modified: '2026-03-16'
 specificationVersion: '0.16'
 apis:
 - name: Customs Declaration API
@@ -104,6 +104,5 @@ common:
 - type: X-Terms-of-Service
   url: https://customs.example.com/terms
 maintainers:
-- FN: Customs IT Department
-  email: api-team@customs.example.com
-  X-github: customs-api
+- FN: Kin Lane
+  email: kin@apievangelist.com
