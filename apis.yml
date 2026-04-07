@@ -17,8 +17,8 @@ apis:
     tags:
       - Customs
       - Declarations
-      - Import
       - Export
+      - Import
       - Trade
     properties:
       - type: X-OpenAPI
@@ -40,10 +40,10 @@ apis:
     baseURL: https://api.customs.example.com/v1/tariffs
     humanURL: https://customs-api.example.com/tariffs
     tags:
-      - Tariffs
-      - HS Codes
       - Classification
       - Duties
+      - HS Codes
+      - Tariffs
     properties:
       - type: X-OpenAPI
         url: https://api.customs.example.com/v1/tariffs/openapi.json
@@ -61,10 +61,10 @@ apis:
     baseURL: https://api.customs.example.com/v1/tracking
     humanURL: https://customs-api.example.com/tracking
     tags:
-      - Tracking
-      - Status
       - Clearance
       - Shipments
+      - Status
+      - Tracking
     properties:
       - type: X-OpenAPI
         url: https://api.customs.example.com/v1/tracking/openapi.json
@@ -83,9 +83,9 @@ apis:
     humanURL: https://customs-api.example.com/compliance
     tags:
       - Compliance
+      - Regulations
       - Sanctions
       - Screening
-      - Regulations
     properties:
       - type: X-OpenAPI
         url: https://api.customs.example.com/v1/compliance/openapi.json
