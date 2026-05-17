@@ -1,6 +1,6 @@
 aid: customs-computer-system
 name: Customs Computer System
-x-type: topic
+kind: topic
 description: >-
   A customs computer system is the national IT platform that customs
   authorities operate to manage the import and export of goods, collect
